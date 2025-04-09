@@ -4,22 +4,45 @@ Pogger is a simple and flexible PHP logging library that provides various log le
 
 <br>
 
-## Prerequisites
+## How to Install
+
+### With Composer
+
+If you're using Composer in your project (which you should), just run:
+
+```bash
+composer require ismoreirakt/pogger
+```
+
+This will download the latest stable release and make Pogger available through autoload.
+
+### Without Composer
+
+If you're not using Composer globally or prefer to clone the repo directly:
+
+#### Prerequisites
 
 To use Pogger, you need the following:
 
 1. **PHP**: 7.4 or higher is recommended;
 2. **Composer**: For managing dependencies;
 
-<br>
+#### Clone de Repository
 
-## Installing Dependencies
+```bash
+git clone --branch v0.0.1 --depth 1 https://github.com/IsMoreiraKt/Pogger
+cd Pogger
+```
 
-To install the required dependencies, run the following command:
+#### Installing Dependencies
+
+Inside the project directory, install the required dependencies:
 
 ```bash
 composer install
 ```
+
+You can now include the library manually in your code or set up autoloading via vendor/autoload.php.
 
 <br>
 
