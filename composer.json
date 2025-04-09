@@ -4,7 +4,8 @@
   "type": "library",
   "license": "MIT",
   "scripts": {
-    "test": "phpunit"
+    "test": "phpunit",
+    "format": "PHP_CS_FIXER_IGNORE_ENV=1 php-cs-fixer fix ."
   },
   "autoload": {
     "psr-4": {
