@@ -11,8 +11,8 @@ jobs:
     runs-on: ubuntu-latest
 
     permissions:
-        contents: write
-        actions: write
+      contents: write
+      actions: write
 
     steps:
       - name: Checkout repository
@@ -32,3 +32,9 @@ jobs:
           git config user.email "github-actions@github.com"
           git commit -m "docs: Automated documentation update"
           git push --force --set-upstream origin autogen-docs
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          publish_dir: ./html
+          publish_branch: gh-pages
