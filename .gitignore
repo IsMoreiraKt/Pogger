@@ -1,6 +1,6 @@
 # PHP Dependency Files
 vendor/
 
-# PHPUnit Files
-.phpunit.result.cache
+# Cache Files
+*.cache
 
