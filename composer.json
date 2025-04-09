@@ -5,7 +5,8 @@
   "license": "MIT",
   "scripts": {
     "test": "phpunit",
-    "format": "PHP_CS_FIXER_IGNORE_ENV=1 php-cs-fixer fix ."
+    "format": "PHP_CS_FIXER_IGNORE_ENV=1 php-cs-fixer fix .",
+    "docs": "doxygen Doxyfile"
   },
   "autoload": {
     "psr-4": {
@@ -19,7 +20,6 @@
     }
   ],
   "require-dev": {
-    "phpunit/phpunit": "^12.1",
-    "phpdocumentor/phpdocumentor": "^2.8"
+    "phpunit/phpunit": "^12.1"
   }
 }
