@@ -1,4 +1,5 @@
 ### Motivation
+
 <!--
 Explain why this Pull Request was created.
 Describe the problem or task that motivated the change.
@@ -10,6 +11,7 @@ This Pull Request addresses a recurring login failure issue affecting certain us
 -->
 
 ### Details
+
 <!--
 Describe the technical solution implemented in this PR.
 Focus on what was changed and why.
@@ -21,6 +23,7 @@ The session validation logic was updated to check token freshness before attempt
 -->
 
 ### Additional Information
+
 <!--
 Add any extra relevant information, such as environment variable changes, database migrations, or documentation updates.
 
@@ -31,6 +34,7 @@ To support the new functionality, two new environment variables were added: `JWT
 -->
 
 ### Checklist [ Delete Before Sending ]
+
 <!--
 Make sure all of these are completed before submitting the PR.
 Every new feature or bug fix *must* come with its own test coverage.
