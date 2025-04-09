@@ -27,7 +27,7 @@ jobs:
       - name: Commit and push docs to autogen-docs branch
         run: |
           git checkout -b autogen-docs || git checkout autogen-docs
-          git add docs/
+          git add autogen/
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
           git commit -m "docs: Automated documentation update"
