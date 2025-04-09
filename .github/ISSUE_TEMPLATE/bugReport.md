@@ -10,7 +10,7 @@ assignees: []
 <!--
 Explain the issue in one or two sentences.
 What’s not working in Pogger?
-Avoid frases vagas tipo “it doesn’t work”.
+Avoid vague phrases like “it doesn't work”.
 -->
 
 ### Expected Behavior
