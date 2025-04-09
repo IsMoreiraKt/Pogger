@@ -20,10 +20,10 @@ This file serves as a development guide for the **Pogger** library - a logging s
 
 #### 3. Pogger API Core
 
-- [ ] Create logger manager to manage channel instances.
-- [ ] Create **PoggerChannelInterface** interface.
+- [x] Create logger manager to manage channel instances.
+- [x] Create **ChannelInterface** interface.
 - [ ] Implement **File** channel.
-- [ ] Implement **Stdout** channel
+- [x] Implement **Stdout** channel
 - [ ] Multiple active channels support.
 
 #### 4. Pogger Configuration
