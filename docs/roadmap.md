@@ -9,11 +9,11 @@ This file serves as a development guide for the **Pogger** library - a logging s
 - [x] Create the basic structure of the library.
 - [x] Register the autoload in composer.json.
 - [x] Create the Pogger namespace.
-- [ ] Implement Log::info() with std::out.
+- [x] Implement Log::info() with std::out.
 
 #### 2. Pogger API
 
-- [ ] Log class with static methods: **debug()**, **info()**, **warning()**, **error()**.
+- [x] Log class with methods: **debug()**, **info()**, **warning()**, **error()**.
 - [ ] Multiple channel support via **channel()**.
 - [ ] Additional context support through **withContext()**.
 - [ ] Internal forwarding to a logger manager.
